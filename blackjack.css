@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+}
+
+.container{
+    height: 700px;
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    background-color: rgb(24, 204, 24);
+    border: solid black;
+    border-radius: 4%;
+
+}
+.firstbox{
+    height: 10vh;
+    background-color: rgb(130, 255, 130);
+    padding: 5%;
+}
+.secondbox{
+    height: 10vh;
+    background-color: rgb(130, 255, 130);
+    padding: 5%;
+}
+
+.overall{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 7%;
+}
+.buttons{
+    margin-top: 2%;
+}
+img{
+    height: 20%;
+    width: 7%;
+    margin-top: -5.3%;
+    margin-left: 1%;
+}
+h1{
+    color: rgb(187, 1, 1);
+
+}
+.bust{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+.win{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}

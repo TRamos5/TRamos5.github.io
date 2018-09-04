@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  
+<head>
+    <title>Blackjack Game</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="blackjack2.css">
+</head>
+  
+  <body>
+   
+    <div class="container">
+    
+        <div class="row">
+            
+            <div class="col-4 offset-4">
+                <h1 id='title'>Blackjack</h1>
+            </div>
+
+        </div>
+        <div class="bust"></div>
+        <div class="win"></div>
+        
+        <div id="table">
+        
+            <div class="row">
+            
+                <label class="col-6 offset-2" id='deal'>Dealer: 
+                    <div class="dealerPoint"></div>
+                </label>
+                
+                <div class="firstbox col-7 offset-3">
+                    <div id="dealer-hand" class="hand">
+                        <img class='img1' src="" alt="">
+                        <img class='img2' src="" alt="">
+                        <img class='img3' src="" alt="">
+                        <img class='img4' src="" alt="">
+                        <img class='img5' src="" alt="">
+                    </div>
+                </div>
+            
+            </div>
+        
+            <div class="row">
+                
+                <label class="col-6 offset-2" id="play">Player: 
+                    <div class="playerPoint"></div>
+                </label>
+                
+                <div class="secondbox col-7 offset-3">
+                    <div id="player-hand" class="hand">
+                        <img class='img6' src="" alt="">
+                        <img class='img7' src="" alt="">
+                        <img class='img8' src="" alt="">
+                        <img class='img9' src="" alt="">
+                        <img class='img10' src="" alt="">
+                    </div>
+                </div>
+            
+            </div>
+        
+        </div>
+        
+        <div class="buttons row">
+        
+            <button class="col-1 offset-5" id="deal-button">Deal</button>
+            
+            <button class="col-1" id="hit-button">Hit</button>
+            
+            <button class="col-1" id="stand-button">Stand</button>
+        
+        </div>
+    
+    </div>
+    
+    
+    
+    
+    
+    
+    
+        <script
+            src="http://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous">
+        </script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+        <script src="blackjack2.js"></script>
+    
+    </body>
+
+  </html>
