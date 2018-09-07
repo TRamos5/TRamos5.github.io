@@ -1,5 +1,8 @@
 BlackJack Game:
-The classic card game Blackjack (aka 21), featuring the ability to hit and stand. This project was built using HTML, CSS, JavaScript and jQuery.
+The classic card game Blackjack (aka 21), featuring the ability to hit and stand. 
+
+Built With:
+HTML, CSS, JavaScript and jQuery
 
 Getting Started:
 See deployment for notes on how to deploy the project on a live system.
