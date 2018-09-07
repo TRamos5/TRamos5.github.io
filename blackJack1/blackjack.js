@@ -202,7 +202,8 @@ function getCardImageUrl(){
     return url;
 }
 getCardImageUrl();
-//adding the points from the 'point' object
+
+//adding the points from the 'point' object for player points
 function calculatePoints(){
     playerPoints = 0;
     for(let e = 0; e < playerHand.length; e++){
@@ -241,11 +242,13 @@ function calculatePoints(){
 };
 calculatePoints();
 
+// function used to display the player points
 function disPPoints(){
     var pPoints = document.querySelector('.playerPoint');
     pPoints.textContent = playerPoints;
 }
 
+//adding the points from the 'point' object for dealer points
 function calculatePoint(){
     dealerPoints = 0;
     for(let e = 0; e < dealerHand.length; e++){
@@ -284,12 +287,13 @@ function calculatePoint(){
 };
 calculatePoint();
 
+// function used to display the dealer points
 function disDPoints(){
     var dPoints = document.querySelector('.dealerPoint');
     dPoints.textContent = dealerPoints;
 }
 
-
+// Shuffles the deck
 function shuffleArray(array) {
     for (var i = array.length - 1; i > 0; i--) {
         var j = Math.floor(Math.random() * (i + 1));
@@ -300,6 +304,8 @@ function shuffleArray(array) {
     return array;
 }
 
+
+// Check to see if the dealer or player busted
 var playerBust = false;
 var dealerBust = false;
 function bust(){
