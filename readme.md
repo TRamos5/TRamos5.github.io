@@ -16,11 +16,5 @@ Steps to Use:
     - If you would like to stick with your current hand click "Stand"
 2. To restart the game click "Deal"
 
-Built With:
-HTML
-CSS
-JavaScript
-jQuery
-
 Authors:
 Travis Ramos
