@@ -4,6 +4,7 @@ $(document).ready(function(){
         reset();
     });
 
+    // Resets the game
     function reset(){
         $('.img1').attr('src', 'JPEG/Gray_back.jpg');
         $('.img2').attr('src', '');
